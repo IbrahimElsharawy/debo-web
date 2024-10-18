@@ -1,8 +1,19 @@
-# React + Vite
+# ERP-System-Flowtechtics-Task demo can be [viewed online here](https://erp-system-flowtechtics-task.vercel.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Our ERP-System-Flowtechtics-Task Contains:
+A table displaying all employees.
+A form flow to add new employees.
+Ensure each row in the table links to a route that displays detailed employee data.
+Ensure each row in the table links to a route that displays detailed employee data.
+The final design must be pixel-perfect, ensuring close attention to UI/UX details, responsiveness, and alignment with best practices for cross-browser compatibility.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository: `git clone https://github.com/awesomeuser/awesomestore.git`
+2. Install dependencies: `npm install`
+3. Start the server: `npm start`
+
+## Technologies Used
+
+- Frontend: React , TailwindCss,react-router-dom,react-icons,react-hook-form
+- Version Control: Git
