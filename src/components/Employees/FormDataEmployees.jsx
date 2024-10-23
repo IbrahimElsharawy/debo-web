@@ -98,7 +98,7 @@ const FormDataEmployees = () => {
       )}
 
       <div className="flex flex-col md:flex-row md:justify-around items-center mb-4">
-        <div className="my-4 w-full w-[70%] ">
+        <div className="my-4 w-full w-[65%] ">
           <input
             type="text"
             placeholder="Search Employee by Name"
