@@ -6,7 +6,7 @@ import { VscDashboard } from "react-icons/vsc";
 import { RiUser3Fill } from "react-icons/ri";
 import { IoIosPeople } from "react-icons/io";
 import { MdOutlineSettings } from "react-icons/md";
-
+import depoWeb from '../../assets/depo.jpg'
 
 const SideBar = () => {
   const menus = [
@@ -34,7 +34,7 @@ const SideBar = () => {
         {/* Logo and Menu Icon */}
         <div className=" flex items-center h-32 justify-between">
           <div className={`${open ? "mr-4" : "hidden"}`}>
-            <img className="w-[80px] h-[80px] object-contain " src={logo} alt="logo" />
+            <img className="w-[80px] h-[80px] object-contain " src={depoWeb} alt="logo" />
           </div>
           <HiMenuAlt3
             size={26}
