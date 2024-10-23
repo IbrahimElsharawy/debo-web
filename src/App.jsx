@@ -5,6 +5,7 @@ import Employees from './components/Employees/Employees';
 import Dashboard from './components/Dashboard/Dashboard';
 import Teams from './components/Teams/Teams';
 import Settings from './components/Settings/Settings';
+import Not_Found from './components/Not-Found.jsx/Not_Found';
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
           <Route path="/dashboard" element={<Dashboard/>}/>
           <Route path="/teams" element={<Teams/>}/>
           <Route path="/settings" element={<Settings/>}/>
+          <Route path="/not-found" element={<Not_Found/>}/>
+
         </Routes>
     </div>
     </div>

@@ -13,7 +13,8 @@ const SideBar = () => {
     { name: "Add Employees", link: "/", icon:RiUser3Fill },
     {name:"Dashboard", link:"/dashboard", icon:VscDashboard },
     {name:"Teams", link:"/teams", icon:IoIosPeople},
-    {name:"Settings", link:"/settings", icon:MdOutlineSettings}
+    {name:"Settings", link:"/settings", icon:MdOutlineSettings},
+    {name:"Not_found", link:"/not-found", icon:IoIosPeople}
 
 
   ];
